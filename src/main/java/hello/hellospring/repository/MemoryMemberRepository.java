@@ -1,7 +1,6 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
-import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
@@ -33,13 +32,6 @@ public class MemoryMemberRepository implements MemberRepository {
     public Optional<Member> findByPhone(String phone) {
         return store.values().stream()
                 .filter(member -> member.getPhone().equals(phone))
-                .findAny();
-    }
-
-    @Override
-    public Optional<Member> findByPwd(int pwd) {
-        return store.values().stream()
-                .filter(member -> member.getPwd() == pwd)
                 .findAny();
     }
 

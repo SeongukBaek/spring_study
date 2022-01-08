@@ -10,7 +10,6 @@ public interface MemberRepository {
     Optional<Member> findById(Long id);
     Optional<Member> findByName(String name);
     Optional<Member> findByPhone(String phone);
-    Optional<Member> findByPwd(int pwd);
     List<Member> findAll();
     void clearStore();
 }
