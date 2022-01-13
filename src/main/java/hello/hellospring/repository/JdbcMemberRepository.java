@@ -160,11 +160,6 @@ public class JdbcMemberRepository implements MemberRepository {
         }
     }
 
-    @Override
-    public void clearStore() {
-
-    }
-
     private void close(Connection conn, PreparedStatement pstmt, ResultSet rs) {
 
         try {

@@ -1,0 +1,9 @@
+2022-01-13 16:16:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMBER" not found; SQL statement:
+select member0_.id as id1_0_, member0_.name as name2_0_, member0_.phone as phone3_0_, member0_.pwd as pwd4_0_ from member member0_ where member0_.name=? [42102-200]
+2022-01-13 16:17:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMBER" not found; SQL statement:
+select member0_.id as id1_0_, member0_.name as name2_0_, member0_.phone as phone3_0_, member0_.pwd as pwd4_0_ from member member0_ where member0_.name=? [42102-200]
+2022-01-13 16:19:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MEMBER" not found; SQL statement:
+select member0_.id as id1_0_, member0_.name as name2_0_, member0_.phone as phone3_0_, member0_.pwd as pwd4_0_ from member member0_ where member0_.name=? [42102-200]
